@@ -8,16 +8,15 @@ Developers who produce open source software (OSS) can evaluate the inactivity of
 A developer puts their OSS into a database under Augur's schema. Augur's backend collects the requested contributor data from the Augur API and presents it at a frontend URL.  
 
 # Triggers  
-1. A developer of OSS gains curiosity over the activity and timeframe of contributors to their project(s).  
+1. A developer of OSS gains curiosity over the activity and timeframe of contributors to a project they are a part of.  
 
 # Actors  
-1. OSS developers
-2. OSS contributors  
+1. OSS developers/contributors 
 
 # Preconditions  
 1. A postgresql database has been configured with Augur's schema  
-3. The database contains the data for an OSS developer's project  
-4. The developer initiates the backend collection system for Augur  
+3. The database contains the data for an OSS project  
+4. A developer initiates the backend collection system for Augur  
 
 # Main Success Scenario  
 1. Augur's API is queried and contains the requested metric data  
@@ -36,8 +35,11 @@ N/A
 
 # Steps of Execution  
 1. An OSS developer starts an Augur backend collection on a supported database and OSS project  
-2. Requested metrics are calculated from the Augur API
+2. Requested metrics are calculated from the Augur API  
 3. Calculated metrics are displayed at the frontend URL  
 
 # Dependent Use Cases  
 N/A  
+
+# Use Case Diagram  
+(Insert diagram here)
