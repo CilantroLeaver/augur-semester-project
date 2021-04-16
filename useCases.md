@@ -41,6 +41,3 @@ N/A
 
 # Dependent Use Cases  
 N/A  
-
-# Use Case Diagram  
-(Insert diagram here)
