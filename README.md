@@ -1,10 +1,12 @@
-# Welcome to our Augur Semester Project!  
+# Welcome to Sprint 3!  
 Software Engineering CS4320 Spring 2021  
 Group Members: Owen Pistolis, Walker Brownfield, Dalton Wright  
 
-In this sprint, we present a potential solution to displaying a key metric in the CHAOSS Community guidelines for open source software transparency and monitoring.  
-Included is code from our local Augur installation as well as branches to each completed Sprint.  
+In this sprint, we provide updates on our semester project to interface with the CHAOSS Augur endpoints and API.  
 
-Our local deployment of Augur for development is hosted at: [Augur](http://owenpistolis.com:5000/api/unstable)  
+(text about Owen's security work on our dedicated webserver here)  
+On the frontend side, we decided to forgo using Augur's official frontend as there are many bugs to work out in development. Instead, we are working on a custom frontend utilizing tables and menus styled with CSS3 and Bootstrap.  
 
-Edited on 4/22/21
+NOTE: We have not yet started on our final presentation video. Work on that will happen during sprint 4.  
+
+Edited on 5/2/21
