@@ -1,5 +1,5 @@
 # Welcome to Sprint 4!  
-Software Engineering CS4320 Spring 2021 Final Project  
+Software Engineering CS4320 Spring 2021  
 Group Members: Owen Pistolis, Walker Brownfield, Dalton Wright  
 
 In this sprint, we present an example UI for the Augur open-source software monitoring app. Included is one table showcasing contributor data for repositories from the Augur database hosted at vmware.osshealth.io. There are also a few quality-of-life features; the ability to refresh the data table and a light/dark mode.  
