@@ -9,7 +9,7 @@ NOTE: Although we originally attempted to pull data from the Augur RESTful API o
 
 Included is code from our local Augur frontend website.  
 
-A video showcasing our final project is available at: [Final Project](https://streamable.com/e5vj55)
+A video showcasing our final project is available at: [Final Project](https://streamable.com/e5vj55)  
 Our local deployment of an example Augur UI is hosted at: [Augur](http://cilantroleaver.me/Augur)  
 
 Edited on 5/16/21
