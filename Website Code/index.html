@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+    Name: Owen Pistolis, Walker Brownfield, Dalton Wright
+    Date: 05/12/2021
+    Course: Software Engineering SS21
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="augur.css" rel="stylesheet">
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous">
+        <title>Software Engineering Final SS21</title>
+        <!-- I love the Montserrat font family, so I added it in. Esteban is added as backup. -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Esteban' rel='stylesheet'>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.js"   
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   
+            crossorigin="anonymous">
+        </script>
+        <script src="augur.js"></script>
+    </head>
+    <body id="background-dark" onload=getRepoContributors()>
+        <div id="projects-dark">
+            <a href="index.html">Refresh</a>
+            <input type="button" id="theme-button" value="Light Theme" onclick="changeTheme()">
+        </div>
+        <h1 id="header-dark" ondblclick="changeHeader()">Contributors</h1>
+        <div id="form-table-container">
+            <table id="form-table" class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Repository</th>
+                        <th>Contributor ID</th>
+                        <th>Total Contributions</th>
+                        <th>Issues Repaired</th>
+                        <th>Issue Comments</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+    </body>
+</html>

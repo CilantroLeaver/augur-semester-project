@@ -1,0 +1,94 @@
+#background-dark{
+    background-color: #333;
+}
+
+#background-light{
+    background-color: #f2f2f2;
+}
+
+#projects-dark{
+    background: rgba(0, 0, 0, 0.0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#projects-light{
+    background: rgba(0, 0, 0, 0.0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#projects-dark a{
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    margin: 10px;
+    font-size: 23px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#projects-light a{
+    float: left;
+    color: #333;
+    padding: 14px 16px;
+    margin: 10px;
+    font-size: 23px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+#theme-button{
+    float: left;
+    color: #f2f2f2;
+    border: none;
+    padding: 14px 16px;
+    margin: 10px;
+    font-size: 23px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#header-dark{
+    text-align: center;
+    font-family: "Esteban";
+    font-size: 50px;
+    color: #f2f2f2;
+    margin-top: 150px;
+    margin-bottom: 29px;
+}
+
+#header-light{
+    text-align: center;
+    font-family: "Esteban";
+    font-size: 50px;
+    color: #333;
+    margin-top: 150px;
+    margin-bottom: 29px;
+}
+
+/*
+CSS code to hide scrollbar drawn from:
+https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
+*/      
+#form-table-container{
+    overflow-y: auto;
+    height: 800px;
+    display: block;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#form-table-container::-webkit-scrollbar{
+    display: none;
+}
